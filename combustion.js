@@ -93,6 +93,24 @@ const MODELS = {
     ['CL2', 'FX'],
     ['Metronome', 'FX']
   ],
+  'Kaziotone': [
+    ['SK1_BD1', 'KICK 1'],
+    ['SK1_BD2', 'KICK 2'],
+    ['SK1_CH', 'CH'],
+    ['SK1_OH', 'OH'],
+    ['SK1_HT', 'PERC 2'],
+    ['SK1_LT', 'PERC 1'],
+    ['VL1_SD', 'SNARE'],
+    ['VL1_PC 1', 'SHAKER'],
+    ['VL1_PC 2', 'CLAP'],
+    ['Metal 1', 'FX'],
+    ['Metal 2', 'FX'],
+    ['Spring', 'FX'],
+    ['Bleep', 'FX'],
+    ['Cymbal', 'CRASH'],
+    ['Bass', 'FX'],
+    ['Noise FX', 'FX']
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
