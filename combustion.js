@@ -111,6 +111,24 @@ const MODELS = {
     ['Bass', 'FX'],
     ['Noise FX', 'FX']
   ],
+  'YMR-10': [
+    ['BD', 'KICK 1'],
+    ['SD 1', 'SNARE 1'],
+    ['SD 2', 'SNARE 2'],
+    'CH',
+    'OH',
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['HT', 'PERC 3'],
+    ['Cymbal', 'CRASH|RIDE'],
+    ['Deep Perc', 'KICK 2'],
+    'Clap',
+    ['Clave', 'RIM'],
+    ['Tiny Synth', 'FX'],
+    ['Lead Synth', 'FX'],
+    ['Pulse Synth', 'FX'],
+    ['Sub Bass', 'FX']
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
