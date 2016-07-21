@@ -2,7 +2,26 @@
 /*global ParameterChanged:true, HandleMIDI:true,
   SetParameter, UpdatePluginParameters, MIDI, Note */
 
-const MODELS = {}
+const MODELS = {
+  'Ace Clone FR-2L': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    'CH',
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['Cymbal', 'CRASH|RIDE'],
+    ['Cowbell', 'RIM'],
+    ['Clave', 'CLAP'],
+    ['Electro Cowbell', 'FX'],
+    ['LT2', 'PERC 3'],
+    ['Bleep 1', 'FX'],
+    ['Bleep 2', 'FX'],
+    ['Buzz Synth', 'FX'],
+    ['Acid Lead', 'FX']
+  ],
+}
 
 // This object defines Drum Machine Designer's sound groups and
 // each sound's pitch offset from C1. E.g. KICK 1 is C1+0 while
