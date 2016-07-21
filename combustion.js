@@ -21,6 +21,24 @@ const MODELS = {
     ['Buzz Synth', 'FX'],
     ['Acid Lead', 'FX']
   ],
+  'DR-606': [
+    ['BD1', 'KICK 1'],
+    ['SD1', 'SNARE 1'],
+    ['CH1', 'CH'],
+    ['OH1', 'OH'],
+    ['HT1', 'PERC 3'],
+    ['MT1', 'PERC 2'],
+    ['LT1', 'PERC 1'],
+    ['CY1', 'CRASH'],
+    ['BD2', 'KICK 2'],
+    ['SD2', 'SNARE 2'],
+    ['CH2', 'PH'],
+    ['OH2', 'FX'],
+    ['HT2', 'FX'],
+    ['MT2', 'PERC 1'],
+    ['LT2', 'PERC 4'],
+    ['CY2', 'RIDE']
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
