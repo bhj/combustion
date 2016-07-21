@@ -75,6 +75,24 @@ const MODELS = {
     ['Clave', 'CLAP'],
     ['Bleep 2', 'SHAKER']
   ],
+  'KPR++': [
+    ['BD1', 'KICK 1'],
+    ['SD', 'SNARE'],
+    'CH',
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['CR', 'CRASH|RIDE'],
+    ['CP', 'CLAP'],
+    ['RS1', 'RIM'],
+    ['CL1', 'FX'],
+    ['CB', 'FX'],
+    ['BD2', 'KICK 2'],
+    ['RS2', 'FX'],
+    ['CL2', 'FX'],
+    ['Metronome', 'FX']
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
