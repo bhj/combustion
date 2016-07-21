@@ -39,6 +39,24 @@ const MODELS = {
     ['LT2', 'PERC 4'],
     ['CY2', 'RIDE']
   ],
+  'DR-808': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    ['CH', 'CH|PH'],
+    ['OH', 'OH'],
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['CY', 'CRASH|RIDE'],
+    ['CP', 'CLAP'],
+    ['RS', 'RIM'],
+    ['Hi Conga', 'FX'],
+    ['Mid Conga', 'FX'],
+    ['Lo Conga', 'FX'],
+    ['Cowbell', 'FX'],
+    ['Clave', 'FX'],
+    ['Maracas', 'SHAKER']
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
