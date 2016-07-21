@@ -57,6 +57,24 @@ const MODELS = {
     ['Clave', 'FX'],
     ['Maracas', 'SHAKER']
   ],
+  'DRM-55': [
+    ['KICK', 'KICK 1'],
+    'SNARE',
+    'CH',
+    ['RS', 'CLAP'],
+    ['Hi Tom', 'PERC 3'],
+    ['Mid Tom', 'PERC 2'],
+    ['Low Tom', 'PERC 1'],
+    ['Cymbal', 'CRASH|OH'],
+    ['Woodblock', 'KICK 2'],
+    ['Bleep 1', 'FX'],
+    ['Sub FX', 'FX'],
+    ['Bass', 'FX'],
+    ['Sub Noise', 'FX'],
+    ['Rimshot', 'RIM'],
+    ['Clave', 'CLAP'],
+    ['Bleep 2', 'SHAKER']
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
