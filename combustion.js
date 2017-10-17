@@ -111,6 +111,24 @@ const MODELS = {
     ['Bass', 'FX'],
     ['Noise FX', 'FX']
   ],
+  'Maestro King': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    ['RS', 'RIM'],
+    ['BR', 'CH|PH'],
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['Cymbal', 'CRASH|RIDE'],
+    ['Wood Block', 'FX'],
+    ['Bongo', 'PERC 4|PERC 5'],
+    ['Wood Clave', 'FX'],
+    ['Clock', 'CLAP'],
+    ['MT2', 'PERC 4|PERC 5'],
+    ['LoFi Synth 1', 'FX'],
+    ['LoFi Synth 2', 'FX'],
+    ['Noise Perc', 'FX']
+  ],
   'YMR-10': [
     ['BD', 'KICK 1'],
     ['SD 1', 'SNARE 1'],
