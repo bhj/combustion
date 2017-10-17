@@ -129,6 +129,24 @@ const MODELS = {
     ['LoFi Synth 2', 'FX'],
     ['Noise Perc', 'FX']
   ],
+  'Micromatix': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    'CH',
+    'OH',
+    ['HT', 'PERC 1'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 3'],
+    ['CR', 'CRASH|RIDE'],
+    ['Guiro', 'FX'],
+    ['LFOBass', 'FX'],
+    ['Lead1', 'FX'],
+    ['Lead2', 'FX'],
+    ['LaserBass', 'FX'],
+    ['SpaceFX1', 'FX'],
+    ['Poly', 'FX'],
+    ['SpaceFX2', 'RIM']
+  ],
   'YMR-10': [
     ['BD', 'KICK 1'],
     ['SD 1', 'SNARE 1'],
