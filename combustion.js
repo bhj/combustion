@@ -165,6 +165,24 @@ const MODELS = {
     ['Pulse', 'FX'],
     ['XRing', 'FX']
   ],
+  'Pulsator': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    'CH',
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['CR1', 'RIDE'],
+    ['CP', 'CLAP'],
+    ['RS', 'RIM'],
+    ['Cowbell', 'PERC 4'],
+    ['Conga1', 'PERC 4'],
+    ['Conga2', 'PERC 5'],
+    ['VeloPerc', 'FX'],
+    ['Hit', 'FX'],
+    ['CR2', 'CRASH']
+  ],
   'YMR-10': [
     ['BD', 'KICK 1'],
     ['SD 1', 'SNARE 1'],
