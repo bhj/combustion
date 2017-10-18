@@ -147,6 +147,24 @@ const MODELS = {
     ['Poly', 'FX'],
     ['SpaceFX2', 'RIM']
   ],
+  'Phatwerk': [
+    ['BD1', 'KICK 1'],
+    ['SD', 'SNARE 1'],
+    ['CH', 'CH'],
+    ['OH', 'OH'],
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['CR', 'CRASH'],
+    ['BD2', 'KICK 2'],
+    ['SD2', 'SNARE 2'],
+    ['CP', 'CLAP'],
+    ['Bass', 'FX'],
+    ['Laser', 'FX'],
+    ['Poly', 'FX'],
+    ['Pulse', 'FX'],
+    ['XRing', 'FX']
+  ],
   'YMR-10': [
     ['BD', 'KICK 1'],
     ['SD 1', 'SNARE 1'],
