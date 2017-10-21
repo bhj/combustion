@@ -183,6 +183,24 @@ const MODELS = {
     ['Hit', 'FX'],
     ['CR2', 'CRASH']
   ],
+  'Sci-mons': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    'CH',
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT1', 'PERC 2'],
+    ['MT2', 'PERC 1'],
+    ['LT', 'PERC 1'],
+    ['CP', 'CLAP'],
+    ['RS', 'RIM'],
+    ['RD', 'RIDE'],
+    ['CR', 'CRASH'],
+    ['Conga 1', 'PERC 4'],
+    ['Conga 2', 'PERC 5'],
+    ['Conga 3', 'PERC 4'],
+    ['Conga 4', 'PERC 5']
+  ],
   'YMR-10': [
     ['BD', 'KICK 1'],
     ['SD 1', 'SNARE 1'],
