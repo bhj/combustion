@@ -58,9 +58,9 @@ Available sound groups are as follows (these directly correspond to Drum Machine
 - SHAKER
 - FX
 
-## Notes
+## Resources
 
-- Combustion uses the undocumented *SetParameter* method introduced sometime around Logic Pro X 10.2 and demonstrated in the "Stutter v2" factory preset of the Scripter MIDI FX plugin. It would be nice if this method were documented in a future version of the [official Logic Pro X Effects book](https://manuals.info.apple.com/MANUALS/1000/MA1651/en_US/logic_pro_x_effects.pdf)
+- [Logic Pro X Effects (10.3)](http://help.apple.com/logicpro-effects/mac/10.3/)
 
 ## License
 
