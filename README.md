@@ -32,11 +32,14 @@ Combustion tries to map Drummer to the sounds available in the selected Spark mo
 
 ## Supported Models
 
-Since the sound and MIDI note assignments vary across models in Spark, Combustion requires a custom map for each model. Please note that currently only a small subset of the factory models included in Spark v2 have been mapped. Contributions are welcome!
+Since the pad assignments vary across models in Spark, Combustion requires a custom map for each model. Currently the following factory models are mapped:
+
+- Spark Vintage
+  - Electro
 
 ## Contributing Maps
 
-Combustion uses a [simple format](https://github.com/bhj/combustion/blob/master/combustion.js) to describe Spark's drum machine models. Each model is defined as an array with 16 items (one for each Spark pad). Each item is itself an array with two items, respectively:
+Contributions are welcome! Combustion uses a [simple format](https://github.com/bhj/combustion/blob/master/combustion.js) to describe Spark's drum machine models. Each model is defined as an array with 16 items (one for each Spark pad). Each item is itself an array with two items, respectively:
 
 1. `string` The Spark pad's label
 2. `string` The Drummer sound group(s) the Spark pad could satisfy (separate multiple groups with `|`)

@@ -1,7 +1,7 @@
 {
   "name": "Combustion",
-  "version": "0.0.1",
-  "description": "Apple Logic Pro X Drummer + Arturia Spark",
+  "version": "0.0.2",
+  "description": "Apple Logic Pro X Drummer + Arturia Spark = Combustion",
   "main": "combustion.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
