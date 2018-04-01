@@ -1,5 +1,5 @@
-/*eslint no-unused-vars: [2, "local"] */
-/*global ParameterChanged:true, HandleMIDI:true,
+/* eslint no-unused-vars: [2, "local"] */
+/* global ParameterChanged:true, HandleMIDI:true,
   SetParameter, UpdatePluginParameters, MIDI, Note */
 
 const MODELS = {
@@ -19,7 +19,7 @@ const MODELS = {
     ['Bleep 1', 'FX'],
     ['Bleep 2', 'FX'],
     ['Buzz Synth', 'FX'],
-    ['Acid Lead', 'FX']
+    ['Acid Lead', 'FX'],
   ],
   'DR-606': [
     ['BD1', 'KICK 1'],
@@ -37,7 +37,7 @@ const MODELS = {
     ['HT2', 'FX'],
     ['MT2', 'PERC 1'],
     ['LT2', 'PERC 4'],
-    ['CY2', 'RIDE']
+    ['CY2', 'RIDE'],
   ],
   'DR-808': [
     ['BD', 'KICK'],
@@ -55,7 +55,7 @@ const MODELS = {
     ['Lo Conga', 'FX'],
     ['Cowbell', 'FX'],
     ['Clave', 'FX'],
-    ['Maracas', 'SHAKER']
+    ['Maracas', 'SHAKER'],
   ],
   'DRM-55': [
     ['KICK', 'KICK 1'],
@@ -73,7 +73,7 @@ const MODELS = {
     ['Sub Noise', 'FX'],
     ['Rimshot', 'RIM'],
     ['Clave', 'CLAP'],
-    ['Bleep 2', 'SHAKER']
+    ['Bleep 2', 'SHAKER'],
   ],
   'KPR++': [
     ['BD1', 'KICK 1'],
@@ -91,7 +91,7 @@ const MODELS = {
     ['BD2', 'KICK 2'],
     ['RS2', 'FX'],
     ['CL2', 'FX'],
-    ['Metronome', 'FX']
+    ['Metronome', 'FX'],
   ],
   'Kaziotone': [
     ['SK1_BD1', 'KICK 1'],
@@ -109,7 +109,7 @@ const MODELS = {
     ['Bleep', 'FX'],
     ['Cymbal', 'CRASH'],
     ['Bass', 'FX'],
-    ['Noise FX', 'FX']
+    ['Noise FX', 'FX'],
   ],
   'Maestro King': [
     ['BD', 'KICK'],
@@ -127,7 +127,7 @@ const MODELS = {
     ['MT2', 'PERC 4|PERC 5'],
     ['LoFi Synth 1', 'FX'],
     ['LoFi Synth 2', 'FX'],
-    ['Noise Perc', 'FX']
+    ['Noise Perc', 'FX'],
   ],
   'Micromatix': [
     ['BD', 'KICK'],
@@ -145,7 +145,7 @@ const MODELS = {
     ['LaserBass', 'FX'],
     ['SpaceFX1', 'FX'],
     ['Poly', 'FX'],
-    ['SpaceFX2', 'RIM']
+    ['SpaceFX2', 'RIM'],
   ],
   'Phatwerk': [
     ['BD1', 'KICK 1'],
@@ -163,7 +163,7 @@ const MODELS = {
     ['Laser', 'FX'],
     ['Poly', 'FX'],
     ['Pulse', 'FX'],
-    ['XRing', 'FX']
+    ['XRing', 'FX'],
   ],
   'Pulsator': [
     ['BD', 'KICK'],
@@ -181,7 +181,7 @@ const MODELS = {
     ['Conga2', 'PERC 5'],
     ['VeloPerc', 'FX'],
     ['Hit', 'FX'],
-    ['CR2', 'CRASH']
+    ['CR2', 'CRASH'],
   ],
   'Sci-mons': [
     ['BD', 'KICK'],
@@ -199,7 +199,7 @@ const MODELS = {
     ['Conga 1', 'PERC 4'],
     ['Conga 2', 'PERC 5'],
     ['Conga 3', 'PERC 4'],
-    ['Conga 4', 'PERC 5']
+    ['Conga 4', 'PERC 5'],
   ],
   'YMR-10': [
     ['BD', 'KICK 1'],
@@ -217,7 +217,7 @@ const MODELS = {
     ['Tiny Synth', 'FX'],
     ['Lead Synth', 'FX'],
     ['Pulse Synth', 'FX'],
-    ['Sub Bass', 'FX']
+    ['Sub Bass', 'FX'],
   ],
 }
 
@@ -237,7 +237,7 @@ const DRUMMER = {
   'CRASH': [13],
   'RIDE': [15],
   'SHAKER': [18, 14],
-  'FX': [19, 21, 23, 20]
+  'FX': [19, 21, 23, 20],
 }
 
 const PITCH_INPUT_OFFSET = -36 // C1 will become array index 0
@@ -248,12 +248,12 @@ var PluginParameters = [{
   name: 'Model',
   type: 'menu',
   valueStrings: Object.keys(MODELS),
-  defaultValue: 0
+  defaultValue: 0,
 }, {
   name: 'Randomize',
   type: 'menu',
   defaultValue: 1,
-  valueStrings: ['Reset default', '-', 'KICK', 'SNARE', 'CLAP', 'PERC', 'FX']
+  valueStrings: ['Reset default', '-', 'KICK', 'SNARE', 'CLAP', 'PERC', 'FX'],
 }]
 
 var App = (function () {
@@ -271,7 +271,7 @@ var App = (function () {
         name: group + (DRUMMER[group].length > 1 ? ' ' + (alt + 1) : ''),
         type: 'menu',
         defaultValue: 0,
-        valueStrings: ['-'].concat(Array(16).fill(''))
+        valueStrings: ['-'].concat(Array(16).fill('')),
       })
 
       // array of objects 0-indexed relative to C1's MIDI pitch
@@ -279,7 +279,7 @@ var App = (function () {
         group,
         alt,
         param: PluginParameters.length - 1, // current PluginParameter index
-        pad: false // not mapped yet
+        pad: false, // not mapped yet
       }
     })
   }
@@ -354,7 +354,7 @@ var App = (function () {
       opts.push(arr[0] + '   [' + MIDI.noteName(pad + PITCH_OUTPUT_OFFSET) + ']')
     })
 
-      // update pad selection/dropdowns for this model
+    // update pad selection/dropdowns for this model
     for (var sound in Sounds) {
       PluginParameters[Sounds[sound].param].valueStrings = opts
     }
@@ -425,7 +425,7 @@ var App = (function () {
   // public methods
   return {
     ParameterChanged,
-    HandleMIDI
+    HandleMIDI,
   }
 })()
 
