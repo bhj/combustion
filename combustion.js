@@ -273,6 +273,24 @@ const MODELS = {
     ['Kick2', 'KICK'],
     ['Snare2', 'SNARE'],
   ],
+  'Vintage > Pop > CL-78': [
+    ['BD1', 'KICK'],
+    ['BD2', 'KICK'],
+    ['SD', 'SNARE'],
+    ['CH', 'CH|PH'],
+    'OH',
+    ['Bongo', 'PERC 3'],
+    ['Conga', 'PERC 1'],
+    ['Cymbal', 'CRASH'],
+    ['Rimshot', 'RIM|CLAP'],
+    ['Clave', 'FX'],
+    ['Cowbell', 'FX'],
+    ['Metal', 'FX'],
+    ['Guiro', 'FX'],
+    ['Maraca', 'SHAKER'],
+    ['Tambourine', 'FX'],
+    ['Latin', 'PERC 2'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
