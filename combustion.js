@@ -327,6 +327,24 @@ const MODELS = {
     ['CongaLo', 'PERC 4'],
     ['SD2', 'SNARE'],
   ],
+  'Vintage > Pop > DR-727': [
+    ['Bongo Hi', 'PERC 5'],
+    ['Bongo Lo', 'PERC 4'],
+    ['Conga Hi', 'PERC 3'],
+    ['Conga Med', 'PERC 2'],
+    ['Conga Lo', 'KICK|PERC 1'],
+    ['Timbale Hi', 'PERC 2'],
+    ['Timbale Lo', 'PERC 1'],
+    ['Quijada', 'CRASH'],
+    ['Agogo Hi', 'PERC 5'],
+    ['Agogo Lo', 'PERC 4'],
+    ['Whistle Hi', 'RIDE'],
+    ['Whistle Lo', 'CRASH'],
+    ['Cabasa', 'SHAKER'],
+    ['Maracas', 'CH|PH'],
+    ['Star Chimes', 'FX'],
+    ['MT', 'SNARE'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
