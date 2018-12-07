@@ -345,6 +345,24 @@ const MODELS = {
     ['Star Chimes', 'FX'],
     ['MT', 'SNARE'],
   ],
+  'Vintage > Pop > DrumTrax': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    ['CH', 'CH|PH'],
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['CR', 'CRASH'],
+    ['CP', 'CLAP'],
+    ['RS', 'RIM'],
+    ['RD', 'RIDE'],
+    ['DrumTrax_CR 2', 'CRASH'],
+    ['Cabasa', 'SHAKER'],
+    ['Cowbell', 'PERC 4|PERC 5'],
+    ['Tamb', 'SHAKER'],
+    ['Bass', 'FX'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
