@@ -309,6 +309,24 @@ const MODELS = {
     ['Shaker', 'SHAKER'],
     ['Tamb', 'SHAKER'],
   ],
+  'Vintage > Pop > DR-626': [
+    ['BD', 'KICK'],
+    ['SD1', 'SNARE'],
+    ['CH', 'CH|PH'],
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['CR', 'CRASH'],
+    ['Clap', 'CLAP'],
+    ['RS', 'RIM'],
+    ['RD', 'RIDE'],
+    ['China', 'CRASH'],
+    ['Cowbell', 'FX'],
+    ['CongaHi', 'PERC 5'],
+    ['CongaLo', 'PERC 4'],
+    ['SD2', 'SNARE'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
