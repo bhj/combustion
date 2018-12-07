@@ -269,7 +269,7 @@ const MODELS = {
     ['Cymbal1', 'FX'],
     ['China', 'CRASH|FX'],
     ['Cowbell', 'FX'],
-    ['Conga', 'FX'],
+    ['Conga', 'PERC 4|PERC 5'],
     ['Kick2', 'KICK'],
     ['Snare2', 'SNARE'],
   ],
