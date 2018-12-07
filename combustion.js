@@ -291,6 +291,24 @@ const MODELS = {
     ['Tambourine', 'FX'],
     ['Latin', 'PERC 2'],
   ],
+  'Vintage > Pop > DNX': [
+    ['BD1', 'KICK'],
+    ['SD', 'SNARE'],
+    ['CH', 'CH|PH'],
+    'OH',
+    ['HT1', 'PERC 3'],
+    ['MT1', 'PERC 2'],
+    ['LT1', 'PERC 1'],
+    ['CR', 'CRASH'],
+    ['CP', 'CLAP'],
+    ['RS', 'RIM'],
+    ['RD', 'RIDE'],
+    ['BD2', 'KICK'],
+    ['MT2', 'PERC 4'],
+    ['HT2', 'PERC 5'],
+    ['Shaker', 'SHAKER'],
+    ['Tamb', 'SHAKER'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
