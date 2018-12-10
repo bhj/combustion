@@ -399,6 +399,24 @@ const MODELS = {
     ['Hi Conga', 'PERC 5'],
     ['Lo Conga', 'PERC 4'],
   ],
+  'Vintage > Pop > Micro Pops': [
+    ['Kick', 'KICK'],
+    ['Snare', 'SNARE'],
+    ['CH', 'CH|PH'],
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['Clave', 'RIM'],
+    ['Guiro1', 'SHAKER'],
+    ['Guiro2', 'SHAKER'],
+    ['Quijada', 'CLAP'],
+    ['Tambourine', 'SHAKER'],
+    ['Cowbell', 'FX'],
+    ['Ring FX', 'FX'],
+    ['Noise FX', 'FX'],
+    ['Bass', 'FX'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
