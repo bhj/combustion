@@ -363,6 +363,24 @@ const MODELS = {
     ['Tamb', 'SHAKER'],
     ['Bass', 'FX'],
   ],
+  'Vintage > Pop > ESP-12': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    ['CH', 'CH|PH'],
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['CR', 'CRASH'],
+    ['RS', 'RIM'],
+    ['Clap', 'CLAP'],
+    ['Ride', 'RIDE'],
+    ['Cowbell', 'FX'],
+    ['Tabla1', 'PERC 4'],
+    ['Tabla2', 'PERC 5'],
+    ['BD 2', 'KICK'],
+    ['SD 2', 'SNARE'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
