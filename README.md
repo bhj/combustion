@@ -36,6 +36,9 @@ Since the pad assignments vary across models in Spark, Combustion requires a cus
 
 - Spark Vintage
   - Electro
+  - House
+  - Pop
+  - Rock
 
 ## Contributing Maps
 
