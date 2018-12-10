@@ -381,6 +381,24 @@ const MODELS = {
     ['BD 2', 'KICK'],
     ['SD 2', 'SNARE'],
   ],
+  'Vintage > Pop > Lynn Dream': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    ['CH', 'CH|PH'],
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['CR', 'CRASH'],
+    ['CP', 'CLAP'],
+    ['RS', 'RIM'],
+    ['RD', 'RIDE'],
+    ['Cabasa', 'SHAKER 2'],
+    ['Tamb', 'SHAKER 1'],
+    ['Cowbell', 'FX'],
+    ['Hi Conga', 'PERC 5'],
+    ['Lo Conga', 'PERC 4'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
