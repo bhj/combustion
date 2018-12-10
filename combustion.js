@@ -417,6 +417,24 @@ const MODELS = {
     ['Noise FX', 'FX'],
     ['Bass', 'FX'],
   ],
+  'Vintage > Pop > RLD-8': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    ['CH', 'CH|PH'],
+    'OH',
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['CR', 'CRASH'],
+    ['RS', 'RIM'],
+    ['Clap', 'CLAP'],
+    ['Ride 1', 'RIDE'],
+    ['Ride 2', 'RIDE'],
+    ['Cowbell', 'FX'],
+    ['Tambourine', 'SHAKER'],
+    ['BD 2', 'KICK'],
+    ['SD 2', 'SNARE'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
