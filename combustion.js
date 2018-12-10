@@ -3,7 +3,7 @@
   SetParameter, UpdatePluginParameters, MIDI, Note */
 
 const MODELS = {
-  'Vintage > Electro > Ace Clone FR-2L': [
+  'Spark Vintage > Electro > Ace Clone FR-2L': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     'CH',
@@ -21,7 +21,7 @@ const MODELS = {
     ['Buzz Synth', 'FX'],
     ['Acid Lead', 'FX'],
   ],
-  'Vintage > Electro > DR-606': [
+  'Spark Vintage > Electro > DR-606': [
     ['BD1', 'KICK 1'],
     ['SD1', 'SNARE 1'],
     ['CH1', 'CH'],
@@ -39,7 +39,7 @@ const MODELS = {
     ['LT2', 'PERC 4'],
     ['CY2', 'RIDE'],
   ],
-  'Vintage > Electro > DR-808': [
+  'Spark Vintage > Electro > DR-808': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -57,7 +57,7 @@ const MODELS = {
     ['Clave', 'FX'],
     ['Maracas', 'SHAKER'],
   ],
-  'Vintage > Electro > DRM-55': [
+  'Spark Vintage > Electro > DRM-55': [
     ['KICK', 'KICK 1'],
     'SNARE',
     'CH',
@@ -75,7 +75,7 @@ const MODELS = {
     ['Clave', 'CLAP'],
     ['Bleep 2', 'SHAKER'],
   ],
-  'Vintage > Electro > KPR++': [
+  'Spark Vintage > Electro > KPR++': [
     ['BD1', 'KICK 1'],
     ['SD', 'SNARE'],
     'CH',
@@ -93,7 +93,7 @@ const MODELS = {
     ['CL2', 'FX'],
     ['Metronome', 'FX'],
   ],
-  'Vintage > Electro > Kaziotone': [
+  'Spark Vintage > Electro > Kaziotone': [
     ['SK1_BD1', 'KICK 1'],
     ['SK1_BD2', 'KICK 2'],
     ['SK1_CH', 'CH'],
@@ -111,7 +111,7 @@ const MODELS = {
     ['Bass', 'FX'],
     ['Noise FX', 'FX'],
   ],
-  'Vintage > Electro > Maestro King': [
+  'Spark Vintage > Electro > Maestro King': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     ['RS', 'RIM'],
@@ -129,7 +129,7 @@ const MODELS = {
     ['LoFi Synth 2', 'FX'],
     ['Noise Perc', 'FX'],
   ],
-  'Vintage > Electro > Micromatix': [
+  'Spark Vintage > Electro > Micromatix': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     'CH',
@@ -147,7 +147,7 @@ const MODELS = {
     ['Poly', 'FX'],
     ['SpaceFX2', 'RIM'],
   ],
-  'Vintage > Electro > Phatwerk': [
+  'Spark Vintage > Electro > Phatwerk': [
     ['BD1', 'KICK 1'],
     ['SD', 'SNARE 1'],
     'CH',
@@ -165,7 +165,7 @@ const MODELS = {
     ['Pulse', 'FX'],
     ['XRing', 'FX'],
   ],
-  'Vintage > Electro > Pulsator': [
+  'Spark Vintage > Electro > Pulsator': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     'CH',
@@ -183,7 +183,7 @@ const MODELS = {
     ['Hit', 'FX'],
     ['CR2', 'CRASH'],
   ],
-  'Vintage > Electro > Sci-mons': [
+  'Spark Vintage > Electro > Sci-mons': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     'CH',
@@ -201,7 +201,7 @@ const MODELS = {
     ['Conga 3', 'PERC 4'],
     ['Conga 4', 'PERC 5'],
   ],
-  'Vintage > Electro > YMR-10': [
+  'Spark Vintage > Electro > YMR-10': [
     ['BD', 'KICK 1'],
     ['SD 1', 'SNARE 1'],
     ['SD 2', 'SNARE 2'],
@@ -219,7 +219,7 @@ const MODELS = {
     ['Pulse Synth', 'FX'],
     ['Sub Bass', 'FX'],
   ],
-  'Vintage > House > DR-708': [
+  'Spark Vintage > House > DR-708': [
     ['BD1', 'KICK'],
     ['SD1', 'SNARE'],
     ['CH1', 'CH|PH'],
@@ -237,7 +237,7 @@ const MODELS = {
     ['BD2', 'KICK'],
     ['SD2', 'SNARE'],
   ],
-  'Vintage > House > DR-909': [
+  'Spark Vintage > House > DR-909': [
     ['BD2', 'KICK'],
     ['SD1', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -255,7 +255,7 @@ const MODELS = {
     ['BD1', 'KICK'],
     ['CR2', 'CRASH'],
   ],
-  'Vintage > House > KR-100': [
+  'Spark Vintage > House > KR-100': [
     ['Kick1', 'KICK'],
     ['Snare1', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -273,7 +273,7 @@ const MODELS = {
     ['Kick2', 'KICK'],
     ['Snare2', 'SNARE'],
   ],
-  'Vintage > Pop > CL-78': [
+  'Spark Vintage > Pop > CL-78': [
     ['BD1', 'KICK'],
     ['BD2', 'KICK'],
     ['SD', 'SNARE'],
@@ -291,7 +291,7 @@ const MODELS = {
     ['Tambourine', 'FX'],
     ['Latin', 'PERC 2'],
   ],
-  'Vintage > Pop > DNX': [
+  'Spark Vintage > Pop > DNX': [
     ['BD1', 'KICK'],
     ['SD', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -309,7 +309,7 @@ const MODELS = {
     ['Shaker', 'SHAKER'],
     ['Tamb', 'SHAKER'],
   ],
-  'Vintage > Pop > DR-626': [
+  'Spark Vintage > Pop > DR-626': [
     ['BD', 'KICK'],
     ['SD1', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -327,7 +327,7 @@ const MODELS = {
     ['CongaLo', 'PERC 4'],
     ['SD2', 'SNARE'],
   ],
-  'Vintage > Pop > DR-727': [
+  'Spark Vintage > Pop > DR-727': [
     ['Bongo Hi', 'PERC 5'],
     ['Bongo Lo', 'PERC 4'],
     ['Conga Hi', 'PERC 3'],
@@ -345,7 +345,7 @@ const MODELS = {
     ['Star Chimes', 'FX'],
     ['MT', 'SNARE'],
   ],
-  'Vintage > Pop > DrumTrax': [
+  'Spark Vintage > Pop > DrumTrax': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -363,7 +363,7 @@ const MODELS = {
     ['Tamb', 'SHAKER'],
     ['Bass', 'FX'],
   ],
-  'Vintage > Pop > ESP-12': [
+  'Spark Vintage > Pop > ESP-12': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -381,7 +381,7 @@ const MODELS = {
     ['BD 2', 'KICK'],
     ['SD 2', 'SNARE'],
   ],
-  'Vintage > Pop > Lynn Dream': [
+  'Spark Vintage > Pop > Lynn Dream': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -399,7 +399,7 @@ const MODELS = {
     ['Hi Conga', 'PERC 5'],
     ['Lo Conga', 'PERC 4'],
   ],
-  'Vintage > Pop > Micro Pops': [
+  'Spark Vintage > Pop > Micro Pops': [
     ['Kick', 'KICK'],
     ['Snare', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -417,7 +417,7 @@ const MODELS = {
     ['Noise FX', 'FX'],
     ['Bass', 'FX'],
   ],
-  'Vintage > Pop > RLD-8': [
+  'Spark Vintage > Pop > RLD-8': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -435,7 +435,7 @@ const MODELS = {
     ['BD 2', 'KICK'],
     ['SD 2', 'SNARE'],
   ],
-  'Vintage > Pop > Vintage Box': [
+  'Spark Vintage > Pop > Vintage Box': [
     ['BD1', 'KICK'],
     ['SD1', 'SNARE'],
     ['CH1', 'CH|PH'],
@@ -453,7 +453,7 @@ const MODELS = {
     ['SD2', 'SNARE'],
     ['CH2', 'CH|PH'],
   ],
-  'Vintage > Rock > DRmulator': [
+  'Spark Vintage > Rock > DRmulator': [
     ['BD1', 'KICK'],
     ['SD1', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -471,7 +471,7 @@ const MODELS = {
     ['BD2', 'KICK'],
     ['SD2', 'SNARE'],
   ],
-  'Vintage > Rock > Lynn 9000': [
+  'Spark Vintage > Rock > Lynn 9000': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -488,7 +488,7 @@ const MODELS = {
     ['CongaLo', 'PERC 4'],
     ['Cabasa', 'SHAKER 2'],
   ],
-  'Vintage > Rock > R-Zone': [
+  'Spark Vintage > Rock > R-Zone': [
     ['BD1', 'KICK'],
     ['SD1', 'SNARE'],
     ['CH', 'CH|PH'],
@@ -506,7 +506,7 @@ const MODELS = {
     ['CH1', 'CH|PH'],
     ['Clap2', 'CLAP'],
   ],
-  'Vintage > Rock > YRX 5': [
+  'Spark Vintage > Rock > YRX 5': [
     ['BD1', 'KICK'],
     ['SD1', 'SNARE'],
     ['CH', 'CH|PH'],
