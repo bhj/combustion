@@ -3,6 +3,24 @@
   SetParameter, UpdatePluginParameters, MIDI, Note */
 
 const MODELS = {
+  'Spark Factory > Creative & FXs > Alien Circuit': [
+    ['BD', 'KICK'],
+    ['SD', 'SNARE'],
+    'CH',
+    ['Electro Perc', 'OH|PH'],
+    ['HT', 'PERC 2'],
+    ['Synth FX1', 'FX'],
+    ['Synth FX2', 'FX'],
+    ['Electro Clave', 'RIDE'],
+    ['Long Guiro', 'SHAKER'],
+    ['RS', 'RIM'],
+    ['Short Guiro', 'SHAKER'],
+    ['Sub Bass', 'KICK'],
+    ['MT', 'PERC 1'],
+    ['X Perc', 'FX'],
+    ['X Bell', 'CLAP|FX'],
+    ['Flange Perc', 'FX'],
+  ],
   'Spark Vintage > Electro > Ace Clone FR-2L': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
