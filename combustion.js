@@ -435,6 +435,24 @@ const MODELS = {
     ['BD 2', 'KICK'],
     ['SD 2', 'SNARE'],
   ],
+  'Vintage > Pop > Vintage Box': [
+    ['BD1', 'KICK'],
+    ['SD1', 'SNARE'],
+    ['CH1', 'CH|PH'],
+    'OH',
+    ['Conga', 'PERC 4|PERC 5'],
+    ['Cowbell', 'FX'],
+    ['Clave', 'FX'],
+    ['Maracas', 'SHAKER'],
+    ['Guiro', 'SHAKER|RIDE'],
+    ['RS', 'RIM'],
+    ['HT', 'PERC 3'],
+    ['MT', 'PERC 2'],
+    ['LT', 'PERC 1'],
+    ['BD2', 'KICK'],
+    ['SD2', 'SNARE'],
+    ['CH2', 'CH|PH'],
+  ],
 }
 
 // This object defines Drum Machine Designer's sound groups and
