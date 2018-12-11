@@ -114,7 +114,7 @@ const MODELS = {
   'Spark Vintage > Electro > Ace Clone FR-2L': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
-    'CH',
+    ['CH', 'CH|PH'],
     'OH',
     ['HT', 'PERC 3'],
     ['MT', 'PERC 2'],
@@ -168,7 +168,7 @@ const MODELS = {
   'Spark Vintage > Electro > DRM-55': [
     ['KICK', 'KICK 1'],
     'SNARE',
-    'CH',
+    ['CH', 'CH|PH'],
     ['RS', 'CLAP'],
     ['Hi Tom', 'PERC 3'],
     ['Mid Tom', 'PERC 2'],
@@ -186,7 +186,7 @@ const MODELS = {
   'Spark Vintage > Electro > KPR++': [
     ['BD1', 'KICK 1'],
     ['SD', 'SNARE'],
-    'CH',
+    ['CH', 'CH|PH'],
     'OH',
     ['HT', 'PERC 3'],
     ['MT', 'PERC 2'],
@@ -240,7 +240,7 @@ const MODELS = {
   'Spark Vintage > Electro > Micromatix': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
-    'CH',
+    ['CH', 'CH|PH'],
     'OH',
     ['HT', 'PERC 1'],
     ['MT', 'PERC 2'],
@@ -258,7 +258,7 @@ const MODELS = {
   'Spark Vintage > Electro > Phatwerk': [
     ['BD1', 'KICK 1'],
     ['SD', 'SNARE 1'],
-    'CH',
+    ['CH', 'CH|PH'],
     'OH',
     ['HT', 'PERC 3'],
     ['MT', 'PERC 2'],
@@ -276,7 +276,7 @@ const MODELS = {
   'Spark Vintage > Electro > Pulsator': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
-    'CH',
+    ['CH', 'CH|PH'],
     'OH',
     ['HT', 'PERC 3'],
     ['MT', 'PERC 2'],
@@ -294,7 +294,7 @@ const MODELS = {
   'Spark Vintage > Electro > Sci-mons': [
     ['BD', 'KICK'],
     ['SD', 'SNARE'],
-    'CH',
+    ['CH', 'CH|PH'],
     'OH',
     ['HT', 'PERC 3'],
     ['MT1', 'PERC 2'],
@@ -313,7 +313,7 @@ const MODELS = {
     ['BD', 'KICK 1'],
     ['SD 1', 'SNARE 1'],
     ['SD 2', 'SNARE 2'],
-    'CH',
+    ['CH', 'CH|PH'],
     'OH',
     ['MT', 'PERC 2'],
     ['LT', 'PERC 1'],
