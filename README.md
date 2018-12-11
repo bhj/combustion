@@ -32,8 +32,10 @@ Combustion tries to map Drummer to the sounds available in the selected Spark mo
 
 ## Supported Models
 
-Since the pad assignments vary across models in Spark, Combustion requires a custom map for each model. Currently the following factory models are mapped:
+Since the pad assignments vary across models in Spark, Combustion uses a custom mapping for each model. Currently the following categories of models are mapped:
 
+- Spark Factory
+  - Creative & FXs
 - Spark Vintage
   - Electro
   - House
