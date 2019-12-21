@@ -1,5 +1,5 @@
 {
-  "name": "Combustion",
+  "name": "combustion",
   "version": "0.0.2",
   "description": "Apple Logic Pro X Drummer + Arturia Spark = Combustion",
   "main": "combustion.js",
