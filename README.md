@@ -36,6 +36,8 @@ Since the pad assignments vary across models in Spark, Combustion uses a custom 
 
 - Spark Factory
   - Creative & FXs
+  - Dub
+  - Electro *(partial)*
 - Spark Vintage
   - Electro
   - House
