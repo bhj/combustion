@@ -23,7 +23,6 @@ Combustion tries to map Drummer to the sounds available in the selected Spark mo
 
 1. Configure Spark:
   - Disable the `Host` button (next to Tempo, at the top) so that Spark doesn't start its own sequencer when you press play in Logic
-
   - In Prefs section, set `Choose MIDI Drum map model for Pads` to `Spark`
 2. Create or select a Drummer track in Logic
 3. Change the Drummer track's instrument from Drum Kit Designer or Drum Machine Designer to Arturia Spark (in the screenshot above, the instrument button is the blue button labeled "Spark" in the channel strip)
