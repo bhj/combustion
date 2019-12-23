@@ -711,18 +711,18 @@ const MODELS = {
 // KICK 2 is F2+17. It's used for a few things internally as
 // well as specifying the groups' dropdown order in the UI.
 const DRUMMER = {
-  'KICK': [0, 17],
-  'SNARE': [2, 4, 16],
-  'RIM': [1],
-  'CLAP': [3, 22],
-  'PERC': [5, 7, 9, 11, 12],
-  'CH': [6],
-  'PH': [8],
-  'OH': [10],
-  'CRASH': [13],
-  'RIDE': [15],
-  'SHAKER': [18, 14],
-  'FX': [19, 21, 23, 20],
+  KICK: [0, 17],
+  SNARE: [2, 4, 16],
+  RIM: [1],
+  CLAP: [3, 22],
+  PERC: [5, 7, 9, 11, 12],
+  CH: [6],
+  PH: [8],
+  OH: [10],
+  CRASH: [13],
+  RIDE: [15],
+  SHAKER: [18, 14],
+  FX: [19, 21, 23, 20],
 }
 
 const PITCH_INPUT_OFFSET = -36 // C1 will become array index 0
@@ -795,7 +795,7 @@ var App = (function () {
 
       // default (linear transform)
       return Math.floor(
-        altIn / (DRUMMER[group].length - 1) * (model[group].length - 1)
+        altIn / (DRUMMER[group].length - 1) * (model[group].length - 1),
       )
     })(sound.alt, sound.group, method)
 
