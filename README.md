@@ -12,22 +12,24 @@ Combustion tries to map Drummer to the sounds available in the selected Spark mo
 - Play Spark's drum machines using Logic's Drummers without manual note mapping
 - Randomize the mapping within sound groups (KICK, SNARE, CLAP, PERC, FX) for more variety
 - Customize the mapping per-note/sound as desired
-- Works with both rock and electronic Drummers
+- Works with all genres of Drummers
 
 ## Requirements
 
 - [Apple Logic Pro X](https://www.apple.com/logic-pro/)
 - [Arturia Spark 2](https://www.arturia.com/spark2/overview)
-  - Disable the `Host` button (next to Tempo, at the top) so that Spark doesn't start its own sequencer when you press play in Logic
-  - Under Prefs, set `Choose MIDI Drum map model for Pads` to `Spark`
 
 ## Usage
 
-1. Create or select a Drummer track in Logic
-2. Change the Drummer track's instrument from Drum Kit Designer or Drum Machine Designer to Arturia Spark (in the screenshot above, the instrument button is the blue button labeled "Spark" in the channel strip)
-3. Add the *Scripter* *MIDI FX* plugin to the Drummer track
-4. Choose Combustion from the Scripter preset dropdown (if installing for the first time, select *Load...* from Scripter's preset dropdown and choose the .pst file downloaded from the [releases page](https://github.com/bhj/combustion/releases), then select *Save* to store the plugin/preset)
-5. In the Scripter (Combustion) window, set the Model dropdown to match the model loaded in Spark
+1. Configure Spark:
+  - Disable the `Host` button (next to Tempo, at the top) so that Spark doesn't start its own sequencer when you press play in Logic
+
+  - In Prefs section, set `Choose MIDI Drum map model for Pads` to `Spark`
+2. Create or select a Drummer track in Logic
+3. Change the Drummer track's instrument from Drum Kit Designer or Drum Machine Designer to Arturia Spark (in the screenshot above, the instrument button is the blue button labeled "Spark" in the channel strip)
+4. Add the *Scripter* *MIDI FX* plugin to the Drummer track
+5. Choose Combustion from the Scripter preset dropdown (if installing for the first time, select *Load...* from Scripter's preset dropdown and choose the .pst file downloaded from the [releases page](https://github.com/bhj/combustion/releases), then select *Save* to store the plugin/preset)
+6. In the Scripter (Combustion) window, set the Model dropdown to match the model loaded in Spark
   - There is no way for Combustion to know which model is loaded in Spark, so if things sound weird make sure the model selected in Combustion matches what is loaded in Spark. If things still sound weird, please submit a pull request with a better default mapping!
 
 ## Supported Models
